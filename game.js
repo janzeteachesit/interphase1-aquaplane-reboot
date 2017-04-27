@@ -19,8 +19,11 @@ Aquaplane.Preloader.prototype = {
         this.load.bitmapFont('fat-and-tiny');
         this.load.bitmapFont('interfont');
 
-        this.load.images([ 'logo', 'boat', 'skier', 'pole', 'rock', 'shark', 'sea' ]);
+        this.load.images([ 'logo', 'boat', 'skier', 'pole', 'rock', 'shark' ]);
         this.load.spritesheet('waves', 'waves.png', 16, 6);
+        var sea = this.load.spritesheet('sea');
+        sea.height = game.height
+        sea.width = game.width
 
     },
 
@@ -38,7 +41,7 @@ Aquaplane.MainMenu.prototype = {
 
     create: function () {
 
-        this.add.image(0, 0, 'sea'*1.5);
+        this.add.image(0, 0, 'sea');
 
         var logo = this.add.image(this.world.centerX, 200, 'logo');
         logo.anchor.x = 0.5;
