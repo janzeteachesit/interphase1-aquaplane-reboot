@@ -38,7 +38,7 @@ Aquaplane.MainMenu.prototype = {
 
     create: function () {
 
-        this.add.image(0, 0, 'sea');
+        this.add.image(0, 0, 'sea'*1.5);
 
         var logo = this.add.image(this.world.centerX, 200, 'logo');
         logo.anchor.x = 0.5;
