@@ -21,7 +21,7 @@ Aquaplane.Preloader.prototype = {
 
         this.load.images([ 'logo', 'boat', 'skier', 'pole', 'rock', 'shark' ]);
         this.load.spritesheet('waves', 'waves.png', 16, 6);
-        var sea = this.load.image('sea');
+        var sea = this.load.images('sea');
         sea.height = game.height
         sea.width = game.width
 
