@@ -22,6 +22,8 @@ Aquaplane.Preloader.prototype = {
         this.load.images([ 'logo', 'boat', 'skier', 'pole', 'rock', 'shark' ]);
         this.load.spritesheet('waves', 'waves.png', 16, 6);
         var sea = this.load.image('sea', 'sea.png');
+        sea.height = game.height
+        sea.width = game.width
 
     },
 
@@ -113,8 +115,8 @@ Aquaplane.Game.prototype = {
     create: function () {
 
         this.add.image(0, 0, 'sea');
-        sea.height = game.height
-        sea.width = game.width
+//         sea.height = game.height
+//         sea.width = game.width
 
         this.waterParticle = this.make.bitmapData(2, 2);
         this.waterParticle.rect(0, 0, 2, 2, '#ffffff');
