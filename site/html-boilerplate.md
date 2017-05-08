@@ -18,7 +18,12 @@ The line:
 ```
     <script src="//cdn.jsdelivr.net/phaser-ce/2.7.8/phaser.min.js"></script>
 ```
-gets Phaser 2.7.8 ready to load your game. Get the latest version of Phaser [here](https://phaser.io/download/stable).
+gets Phaser 2.7.8 ready to load your game. 
+
+> ### NOTE
+> It is important to put files in the correct order. In JavaScript, code is executed from top to bottom; i.e. in the order it is encountered by the JavaScript interpreter (your browser).
+
+Get the latest version of Phaser [here](https://phaser.io/download/stable).
 
 The line:
 ```
