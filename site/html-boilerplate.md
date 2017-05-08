@@ -1,0 +1,21 @@
+# HTML Boilerplate
+
+```
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Aqua Plane First Trial</title>
+    <meta charset="utf-8">
+    <script src="//cdn.jsdelivr.net/phaser-ce/2.7.5/phaser.min.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/aquaplane.js"></script>
+
+</head>
+<body>
+    <div id="game"></div>
+    <div id="site">
+        <p><a href="site/index.html">Read the Tutorial</a></p>
+    </div>
+</body>
+</head>
+```
