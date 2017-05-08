@@ -1,6 +1,7 @@
 # References
 - [Making of Aquaplane - GDoc](https://drive.google.com/file/d/0BysMfTbvAUUVVU92U2x3WDNickU/view) \(login required\)
 - [State Manager Guide - GDoc](https://drive.google.com/file/d/0BysMfTbvAUUVZ05XVmprUFVsUTQ/view) \(login required\)
+- [Classeur markdown editor](https://app.classeur.io)
 - [Making your first Phaser game](http://phaser.io/tutorials/making-your-first-phaser-game)
 - [Phaser Examples](https://phaser.io/examples)
 - [Phaser Examples - GitHub](https://github.com/photonstorm/phaser-examples)
