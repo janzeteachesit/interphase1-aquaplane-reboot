@@ -1,7 +1,5 @@
-var game = new Phaser.Game(1200, 900, Phaser.AUTO, 'aquaplane');
+var game = new Phaser.Game(800, 600);
 
-game.state.add('Aquaplane.Preloader', Aquaplane.Preloader);
-game.state.add('Aquaplane.MainMenu', Aquaplane.MainMenu);
-game.state.add('Aquaplane.Game', Aquaplane.Game);
+game.state.add('Aquaplane', Aquaplane.js);
 
-game.state.start('Aquaplane.Preloader');
+game.state.start('Aquaplane');
