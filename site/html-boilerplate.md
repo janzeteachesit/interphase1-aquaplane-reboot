@@ -6,11 +6,7 @@
 <head>
     <title>[Game Title]</title>
     <meta charset="utf-8">
-    // This line gets Phaser 2.7.8 ready to load your game
-    // To get the latest version of Phaser go to:
-    // https://phaser.io/download/stable 
     <script src="//cdn.jsdelivr.net/phaser-ce/2.7.8/phaser.min.js"></script>
-    // This line gets your "game.js" file ready to play
     <script type="text/javascript" src="game.js"></script>
 </head>
 <body>
@@ -18,7 +14,23 @@
 </body>
 </head>
 ```
+The line:
+```
+    <script src="//cdn.jsdelivr.net/phaser-ce/2.7.8/phaser.min.js"></script>
+```
+gets Phaser 2.7.8 ready to load your game. Get the latest version of Phaser [here](https://phaser.io/download/stable).
 
+The line:
+```
+    <script type="text/javascript" src="game.js"></script>
+```
+ gets your "game.js" file ready to play.
+
+The line:
+```
+    <div id="game"></div>
+```
+ starts the game.
 
 <!-- 
 ```
