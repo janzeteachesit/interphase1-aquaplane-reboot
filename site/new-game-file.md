@@ -9,5 +9,13 @@
    ```
    <script type="text/javascript" src="js/aquaplane.js"></script>
    ```
+4. edit "aquaplane.js" and comment out the "new Phaser.Game" line near the end:
+   ```
+   var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'); 
+   ```
+   to
+   ```
+   // var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'); 
+   ```
 
 
