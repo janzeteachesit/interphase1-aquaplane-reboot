@@ -1,5 +1,3 @@
-# Aqua Plane from Interpahse1
+# DIY Aqua Plane from Interpahse1 files
 
-https://drive.google.com/file/d/0BysMfTbvAUUVVU92U2x3WDNickU/view
-
-https://drive.google.com/file/d/0BysMfTbvAUUVZ05XVmprUFVsUTQ/view
+- [Tutorial](site/README.md) - A work in progress
