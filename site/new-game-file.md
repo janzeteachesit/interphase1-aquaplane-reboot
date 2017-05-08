@@ -7,7 +7,7 @@
    ```
 3. edit "index.html" to add in the header, after the linw with "game.js" the line:
    ```
-       <script type="text/javascript" src="js/aquaplane.js"></script>
+   <script type="text/javascript" src="js/aquaplane.js"></script>
    ```
 
 
